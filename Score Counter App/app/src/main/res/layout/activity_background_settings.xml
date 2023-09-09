@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BackgroundSettingsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select MainActivity Background:"
+        android:textSize="23dp"
+        android:padding="16dp" />
+
+    <RadioGroup
+        android:id="@+id/sportRadioButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/footballRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Football"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/basketballRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Basketball"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/baseballRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baseball"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/soccerRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soccer"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/defaultRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default"
+            android:padding="8dp" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select WinnerActivity Background:"
+        android:textSize="23sp"
+        android:padding="16dp" />
+
+    <RadioGroup
+        android:id="@+id/winnerRadioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/medalRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medal"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/cupRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cup"
+            android:padding="8dp" />
+
+        <RadioButton
+            android:id="@+id/thumbsUpRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thumbs Up"
+            android:padding="8dp" />
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/setButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set"
+        android:layout_margin="16dp" />
+
+
+
+
+</LinearLayout>
+
+
